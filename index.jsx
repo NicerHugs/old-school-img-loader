@@ -1,4 +1,4 @@
-var OldSchoolLoadImg = React.createClass({
+var OldSchoolImgLoader = React.createClass({
 	getDefaultProps() {
   	return {loadTime: 2000, boxsize: 10}
   },
@@ -52,7 +52,9 @@ var OldSchoolLoadImg = React.createClass({
   },
   render() {
     return (
-    	<div style={{height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative'}}>
+    	<div
+				className="old-school-img" 
+				style={{display: 'inline-block', height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative'}}>
       	<img
         	src={this.props.src}
           height="100%"

@@ -1,7 +1,7 @@
 'use strict';
 
-var OldSchoolLoadImg = React.createClass({
-  displayName: 'OldSchoolLoadImg',
+var OldSchoolImgLoader = React.createClass({
+  displayName: 'OldSchoolImgLoader',
 
   getDefaultProps: function getDefaultProps() {
     return { loadTime: 2000, boxsize: 10 };
@@ -58,7 +58,9 @@ var OldSchoolLoadImg = React.createClass({
   render: function render() {
     return React.createElement(
       'div',
-      { style: { height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative' } },
+      {
+        className: 'old-school-img',
+        style: { display: 'inline-block', height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative' } },
       React.createElement('img', {
         src: this.props.src,
         height: '100%',
