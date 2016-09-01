@@ -1,3 +1,4 @@
 *.jsx
 example
 src
+.babelrc
