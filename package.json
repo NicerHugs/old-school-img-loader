@@ -1,8 +1,8 @@
 {
   "name": "old-school-img-loader",
-  "description": "a fun component to slowly load images like they did in old (yet futuristic) movies and tv shows",
+  "description": "A silly little React component that makes your images look like they've loaded on a high tech 1980's computer from the movies.",
   "author": "nicerhugs <jscheuring@gmail.com> (http://nicerhugs.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src --out-dir lib && npm run compile:examplejs",

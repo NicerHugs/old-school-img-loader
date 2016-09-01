@@ -1,7 +1,5 @@
 # Old School Image Loader
 
-A silly little React component that makes your images look like they've loaded on a high tech 1980's computer from the movies.
-
 ## Example
 View the [live example](https://nicerhugs.github.io/old-school-img-loader/)
 
