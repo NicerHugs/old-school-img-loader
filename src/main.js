@@ -9,6 +9,6 @@ render(
     width={300}
     boxsize={20}
     loadTime={3000}
-    background="#fff"/>,
+    background="#262626"/>,
   document.getElementById('container')
 );
