@@ -13,9 +13,6 @@
       "babelify"
     ]
   },
-  "browserify-global-shim": {
-    "react": "React"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/NicerHugs/old-school-img-loader.git"
@@ -31,7 +28,6 @@
     "babel-preset-react": "^6.11.1",
     "babelify": "^7.3.0",
     "browserify": "^13.1.0",
-    "browserify-global-shim": "^1.0.3",
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   },
