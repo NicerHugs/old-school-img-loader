@@ -19,7 +19,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   width: 300,
   boxsize: 20,
   loadTime: 3000,
-  background: '#fff' }), document.getElementById('container'));
+  background: '#262626' }), document.getElementById('container'));
 
 },{"../..":2,"react":173,"react-dom":30}],2:[function(require,module,exports){
 'use strict';

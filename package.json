@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib",
+    "prepublish": "babel src --out-dir lib && npm run compile:examplejs",
     "compile:examplejs": "browserify example/src/main.js -o example/bundle.js"
   },
   "browserify": {
