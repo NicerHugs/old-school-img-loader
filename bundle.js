@@ -24,9 +24,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 },{"../..":2,"react":173,"react-dom":30}],2:[function(require,module,exports){
 'use strict';
 
-var React = require('react');
+var _react = require('react');
 
-var OldSchoolImgLoader = React.createClass({
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+var OldSchoolImgLoader = _react2.default.createClass({
   displayName: 'OldSchoolImgLoader',
   getDefaultProps: function getDefaultProps() {
     return { loadTime: 2000, boxsize: 10 };
@@ -81,12 +87,12 @@ var OldSchoolImgLoader = React.createClass({
     return style;
   },
   render: function render() {
-    return React.createElement('div', {
+    return _react2.default.createElement('div', {
       className: 'old-school-img',
-      style: { display: 'inline-block', height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative' } }, React.createElement('img', {
+      style: { display: 'inline-block', height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative' } }, _react2.default.createElement('img', {
       src: this.props.src,
       height: '100%',
-      width: '100%' }), React.createElement('div', { style: this.rowStyles() }, React.createElement('div', { style: this.columnStyles() })));
+      width: '100%' }), _react2.default.createElement('div', { style: this.rowStyles() }, _react2.default.createElement('div', { style: this.columnStyles() })));
   }
 });
 
