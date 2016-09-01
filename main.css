@@ -1,0 +1,10 @@
+body {
+	background: #262626;
+	color: #5dd82e;
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.old-school-img {
+	border: 2px solid #5dd82e;
+}
