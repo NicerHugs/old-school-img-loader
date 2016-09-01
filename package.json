@@ -1,0 +1,10 @@
+{
+  "name": "old-school-img-loader",
+  "description": "a fun component to slowly load images like they did in old (yet futuristic) movies and tv shows",
+  "author": "nicerhugs <jscheuring@gmail.com> (http://nicerhugs.com)",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-cli": "^6.14.0"
+  }
+}
