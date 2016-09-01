@@ -1,3 +1,5 @@
+var React = require('react');
+
 var OldSchoolImgLoader = React.createClass({
 	getDefaultProps() {
   	return {loadTime: 2000, boxsize: 10}
@@ -53,7 +55,7 @@ var OldSchoolImgLoader = React.createClass({
   render() {
     return (
     	<div
-				className="old-school-img" 
+				className="old-school-img"
 				style={{display: 'inline-block', height: this.props.height, width: this.props.width, overflow: 'hidden', position: 'relative'}}>
       	<img
         	src={this.props.src}
@@ -68,5 +70,5 @@ var OldSchoolImgLoader = React.createClass({
 });
 
 if (typeof module !== 'undefined') {
-  module.exports = OldSchoolLoadImg;
+  module.exports = OldSchoolImgLoader;
 }
