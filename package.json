@@ -2,7 +2,7 @@
   "name": "old-school-img-loader",
   "description": "A silly little React component that makes your images look like they've loaded on a high tech 1980's computer from the movies.",
   "author": "nicerhugs <jscheuring@gmail.com> (http://nicerhugs.com)",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src --out-dir lib && npm run compile:examplejs",
@@ -27,7 +27,7 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^15.3.1",
     "react-dom": "^15.3.1"
   }
