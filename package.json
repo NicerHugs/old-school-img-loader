@@ -5,7 +5,7 @@
   "version": "0.1.3",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "babel src --out-dir lib && npm run compile:examplejs",
+    "prepublish": "babel src/index.js -o lib/index.js && npm run compile:examplejs",
     "compile:examplejs": "browserify example/src/main.js -o example/bundle.js"
   },
   "browserify": {
@@ -17,15 +17,19 @@
     "type": "git",
     "url": "https://github.com/NicerHugs/old-school-img-loader.git"
   },
-	"keywords": ["react-component"],
-	"license": "WTFPL",
+  "keywords": [
+    "react-component"
+  ],
+  "license": "WTFPL",
   "bugs": "https://github.com/NicerHugs/old-school-img-loader/issues",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-preset-es2015": "^6.14.0",
     "babel-preset-react": "^6.11.1",
     "babelify": "^7.3.0",
-    "browserify": "^13.1.0"
+    "browserify": "^13.1.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
   },
   "peerDependencies": {
     "react": "^15.3.1",
